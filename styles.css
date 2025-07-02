@@ -42,14 +42,25 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;    
-    max-width: 800px;
+    max-width: 1200px;
     font-size: 48px;
     font-weight: 900;
-
+    gap: 40px;
+    width: 100%;
+    padding-bottom: 150px;
 }
 
+.leftHero {
+    max-width: 500px;
+
+}
 p {
     font-size: 18px;
+    color: #1F2937;    
+}
+
+.hero p {    
+    color: #E5E7EB;
 }
 
 #heroButton {
@@ -59,4 +70,38 @@ p {
     padding: 8px 24px 8px 24px;
     border: none;
     border-radius: 5px;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;       
+    width: 100%;
+    padding: 50px 16px 100px 16px;
+}
+
+.infoTitle {
+    font-size: 36px;    
+    font-weight: 900;        
+}
+
+.sectionContainer {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sections {
+    max-width: 200px;    
+}
+
+.works img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
 }
