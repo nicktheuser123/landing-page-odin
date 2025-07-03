@@ -1,6 +1,7 @@
 body {
         font-family: Roboto;        
         margin: 0px;
+    
     }
 
 .first {
@@ -31,7 +32,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap:15px;
+    gap: 15px;
     margin: 0px;
     padding: 0px;
     font-size: 18px;
@@ -104,4 +105,71 @@ p {
     border-style: solid;
     border-color: #3882F6;
     border-width: 3px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: Italic;
+    font-weight: 10;
+    color: #1F2937;
+    padding: 100px 16px 100px 16px;
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+    
+}
+
+.quoteContainer {
+    width: 100%;
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 40px; 
+    font-style: normal;   
+}
+
+.cta {
+    padding: 100px 16px;
+    display: flex;
+    justify-content: center;        
+}
+
+.cardCta {
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 900px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 24px;
+}
+.cardText {
+    font-weight: lighter;
+    
+}
+
+#ctaCardButton {
+    background: none;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px 35px;
+    border-radius: 8px;
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
 }

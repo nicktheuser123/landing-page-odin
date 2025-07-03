@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMPORT-ANT</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     
 </head>
@@ -50,8 +52,10 @@
         </div>    
     </div>
     <div class="quote">
-        <div>This is an inspiring quote or a testimonial from a customer.</div>
-        <div>-Thor, god of thunder</div>
+        <div class="quoteContainer">
+            <div>This is an inspiring quote or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <div class="author">-Thor, god of thunder</div>
+        </div>    
     </div>
     <div class="cta">
         <div class="cardCta">
@@ -59,7 +63,7 @@
                 <div class="cardTitle">Call to action! It's time!</div>
                 <div class="cardText">Sign up for our product by clicking that button right over there!</div>                
             </div>
-            <button>Sign Up</button>            
+            <button id="ctaCardButton">Sign Up</button>            
         </div>
     </div>
     <div class="footer">
