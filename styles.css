@@ -6,9 +6,6 @@ body {
         height: 100vh;
     }
 
-.main-content {
-    flex: 1;
-}
 
 .first {
     background-color: #1f2937;
@@ -56,6 +53,7 @@ ul {
     max-width: 500px;
 
 }
+
 p {
     font-size: 18px;
     color: #1F2937;    
@@ -123,7 +121,6 @@ p {
 }
 
 .quoteContainer {
-    width: 100%;
     max-width: 770px;
     display: flex;
     flex-direction: column;    
